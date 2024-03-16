@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+    app:
+        build: ./
+        # command: streamlit run app/main.py --server.port 8501
+        command: streamlit run app.py --server.port 5000
+        
+        volumes:
+            - ./:/usr/src/app
+        ports:
+            - 5000:5000
+        # image: yourstreamlitapp:latest
+        # image: aianytime1.azurecr.io/images:latest
+        image:  haran2001/irex_merged

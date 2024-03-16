@@ -1,0 +1,20 @@
+transformers 
+einops 
+accelerate 
+langchain 
+bitsandbytes
+OpenAI
+google-search
+# GoogleSearch
+serpapi
+google-search-results
+faknow
+
+torchvision
+gdown
+streamlit
+# dotenv
+
+Flask==2.2.5
+flask-cors
+gunicorn==20.1.0
