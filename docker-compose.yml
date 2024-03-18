@@ -2,7 +2,7 @@ version: "3"
 services:
   api:
     container_name: omdena_irex
-    image: haran2001/irex_merged1
+    image: haran2001/irex_merged3
     # command: python app.py --server.port 5000
     command: python app.py
     ports:
